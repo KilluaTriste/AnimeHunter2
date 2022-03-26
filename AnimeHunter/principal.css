@@ -1,0 +1,430 @@
+/* Slide Principal */
+.slider {
+    background-color: blueviolet;
+    box-shadow: 0 0 300px inset black;
+    height: 388px;
+}
+
+.item-slider {
+    color: #fff;
+}
+
+.slider .slick-slide {
+    height: 380px;
+    outline: none;
+}
+
+.itens {
+    float: left;
+    display: inline-flex;
+    width: 40%;
+    left: 15%;
+    position: relative;
+    top: 9%;
+}
+
+.itens img {
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+.infos {
+    margin-left: 2%;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 0.2px solid transparent;
+    width: 20px;
+    border-radius: 7px;
+    background: #cfceceb0;
+    cursor: pointer;
+    outline: none;
+}
+.slick-dots {
+    width: 20%;
+    position: relative;
+    bottom: 25px;
+    margin: 0 0 0 760px;
+}
+
+li.slick-active button {
+    background: #ffffff;
+    box-shadow: 0 0 5px #ffffff ;
+    width: 35px;
+    transition: all 0.8s;
+    transform: translatey(-3px);
+    margin-right: 0px;
+}
+
+.slick-dots li {
+    margin-right: 3%;
+    display: inline-block;
+}
+
+.slider button.slick-prev {
+    font-size: 0;
+    border: none;
+    background: transparent;
+    position: absolute;
+}
+
+.slider button.slick-next {
+    font-size: 0;
+    border: none;
+    background: transparent;
+    position: absolute;
+}
+/* Slide Principal */
+
+/* Slider de múltiplo itens */
+.atalhos {
+    display: flex;
+    border-bottom: none;
+    border: 1px solid #370455;
+    border-bottom: none;
+    z-index: 2;
+    background-color: #180125;
+    width: 328px;
+    height: 45px;
+    position: relative;
+    margin: 30px 0 0 795px;
+    font-size: 18px;
+    top: 1px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.atalhos a {
+    color: #fff;
+    text-decoration: none;
+    padding: 13.2px;
+    position: relative;
+    top: 11.4px;
+}
+.atalhos ul {
+    margin: 0;
+    padding: 0;
+}
+
+.lançamentos:hover {
+    background-color: #7b03c0;
+    border-radius: 2px 0 0 2px;
+    box-shadow: 0 0 20px #8e26ca;
+    transition: 0.4s all;
+}
+
+.filmes:hover {
+    background-color: #7b03c0;
+    box-shadow: 0 0 20px #8e26ca;
+    transition: 0.4s all;
+}
+
+.completos:hover {
+    background-color: #7b03c0;
+    border-radius: 0 2px 2px 0;
+    box-shadow: 0 0 20px #8e26ca;
+    transition: 0.4s all;
+}
+
+.multi-slide {
+    overflow: hidden;
+    width: 70%;
+    padding: 8px 0 8px 8px;
+    margin: 0 15%;
+    border-radius: 5px;
+    border: 1px solid #202020d3;
+}
+
+.capa {
+    position: relative;
+    padding-right: 0.5%;
+}
+
+.capa img {
+    width: 100%;
+}
+
+.capa-info {
+    position: absolute;
+    width: 95%;
+    bottom: -8%;
+    left: 0;
+    color: #fff;
+    z-index: 2;
+    padding: 0 10px;
+    transition: ease .6s;
+}
+
+.capa-info a {
+    color: #fff;
+}
+
+.capa-titulo {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.capa:hover .capa-info {
+    transform: translateY(-30px);
+}
+
+.capa-ep {
+    color: rgba(255, 255, 255, 0.781);
+}
+
+.capa-tipo h4 {
+    padding-top: 6px;
+    color: #fff;
+    transition: .4s all;
+    text-transform: uppercase;
+    width: 70px;
+    height: 23px;
+}
+
+.capa-tipo h4:hover {
+    color: #7b03c0;
+    font-weight: bolder;
+}
+
+.shadow {
+    width: 95%;
+    height: 175px;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(12, 12, 29, .98) 100%);
+}
+
+.multi-slide button.slick-prev {
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-image: url(./img/voltar.png);
+    background-color: #180125;
+    border: none;
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+    background-position: 5%;
+    background-position-x: 30%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    top: 43%;
+    left: 2%;
+}
+
+.multi-slide button.slick-next {
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-image: url(./img/avançar.png);
+    background-color: #180125;
+    border: none;
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+    background-position: 5%;
+    background-position-x: 30%;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    right: 2%;
+    bottom: 43%;
+}
+/* Slider de múltiplo itens */
+
+
+/* últimos episódios adicionados */
+.bloco-eps-recentes {
+    display: flex;
+    margin: 0 15%;
+    width: 1332.13px;
+    flex: 1 1 500px;
+    flex-wrap: wrap;
+    color: #fff;
+
+}
+
+.bloco-flex {
+    width: 256.4px;
+    height: 199px;
+    margin: 5px;
+    transition: .4s all;
+}
+
+.info-rc {
+    color: #fff;
+    font-size: 18px;
+}
+
+.info-rc span {
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 14px;
+    position: relative;
+    bottom: 5px;
+}
+
+.img-recente img {
+    width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.bloco-flex:hover .img-recente img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.img-recente {
+    overflow: hidden;
+    height: 151px;
+    margin-bottom: 5px;
+}
+
+.bloco-titulo {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.863);
+    background-color: #202020d3;
+    padding: 10px 5px 5px 10px;
+    margin: 1% 68% 0.5% 15%;   
+}
+
+.ver-mais-recente a{
+    background-color: #180125;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.ver-mais-recente {
+    padding: 1.5%;
+    width: 100%;
+    margin: 0 44%;
+}
+
+.ver-mais-recente a:hover {
+    background-color: #7b03c0;
+    transition: .3s all;
+}
+
+/* últimos episódios adicionados */
+
+
+/* Completos adicionados */
+.completos-titulo {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.863);
+    background-color: #202020d3;
+    padding: 10px 5px 5px 10px;
+    margin: 1% 71.8% 0.5% 15%;  
+}
+
+.bloco-ct {
+    margin: 0 15% 2% 15%;
+    height: 200px;
+    display: flex;
+    flex: 1 1 500px;
+    flex-wrap: wrap;
+}
+.thumb-ct {
+    width: 256.4px;
+    height: 151px;
+    color: #fff;
+    overflow: hidden;
+    margin: 0 5px;
+    border-bottom: 1px solid #7b03c0;
+}
+
+.thumb-ct img {
+    width: 100%;
+}
+
+.info-ct {
+    position: relative;
+    bottom: 29%;
+    width: 100%;
+    transition: .4s ease;
+    padding: 0 10px;
+    z-index: 2;
+}
+
+.thumb-ct:hover .info-ct {
+    transform: translateY(-1.2rem);
+}
+
+.thumb-ct li {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #8602d3;
+}
+
+.ver-mais-ct a {
+    color: #fff;
+    background-color: #180125;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    position: relative;
+    top: 0.6rem;
+    text-transform: uppercase;
+}
+
+.ver-mais-ct {
+    width: 100%;
+    margin: 0 45.4%;
+}
+
+.ver-mais-ct a:hover {
+    background-color: #7b03c0;
+    transition: .3s all;
+}
+
+.shadow2 {
+    width: 100%;
+    height: 50%;
+    bottom: 8.5rem;
+    position: relative;
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+/* Completos adicionados */
+
+.final {
+    color: #fff;
+    font-size: 14px;
+    padding: 1% 0;
+    border-top: 1px solid #370455;
+}
+
+.creditos {
+    text-align: center;
+}
+
+.site {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

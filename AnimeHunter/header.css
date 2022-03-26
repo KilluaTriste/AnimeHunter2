@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #181717;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    overflow-x: auto; /*Esconder a barra de rolagem horizontal*/
+    overflow-y: auto;
+    font-family: 'Bahnschrift Light', sans-serif, Arial;
+
+}
+
+.menu {
+    height: 70px;
+    background-color: #242424;
+    display: flex;
+}
+
+.logo {
+    height: 80%;
+    width: 130px;
+}
+
+.itens-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 15px 6px 15px;
+    position: relative;
+}
+
+.itens-menu  {
+    display: flex;
+    position: relative;
+    width: 70%;
+    left: 15%;
+}
+
+
+.itens-menu ul {
+    position: relative;
+    left: 31%;
+    height: 10px;
+    top: 24px;
+}
+
+.itens-menu ul,h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.inicio:hover a{
+    background-color: #7b03c0;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #8e26ca;
+    transition: 0.4s all;
+}
+
+.animes:hover a  {
+    background-color: #7b03c0;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #8e26ca;
+    transition: 0.4s all;
+}
+
+.calendario:hover a {
+    background-color: #7b03c0;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #8e26ca;
+    transition: 0.4s all;
+}
